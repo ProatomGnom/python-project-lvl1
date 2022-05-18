@@ -15,9 +15,7 @@ jobs:
         # make depends on poetry
       - name: install1
         run:  pip install poetry  
-      - name: Install dependencies
-        run:
-          make install
+      #- name: Install dependencies
+        #run:  make install
       - name: run linter
-        run: 
-          make linter
+        run:  make linter
