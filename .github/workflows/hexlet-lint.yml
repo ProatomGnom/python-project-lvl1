@@ -17,9 +17,9 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
           # make depends on poetry
-      - name: install1
+      - name: Install poetry
         run:  pip install poetry  
       - name: Install dependencies
         run:  make install
-      - name: run linter
+      - name: Run linter
         run:  make linter
