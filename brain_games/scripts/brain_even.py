@@ -9,5 +9,5 @@ def main():
     game_logic.start_game(game_even)
 
 
-if __name__  == "__main__":
+if __name__ == "__main__":
     main()

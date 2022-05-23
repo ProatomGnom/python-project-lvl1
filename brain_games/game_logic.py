@@ -30,7 +30,7 @@ def start_game(game):
             print("Correct!")
         else:
             print(f"'{answer_user}' is wrong answer ;(."
-                    f" Correct answer was '{answer}'.")
+                  f" Correct answer was '{answer}'.")
             print(f"Let's try again, {name_user}!")
             break
     else:
