@@ -5,4 +5,6 @@
 
 [![linter check](https://github.com/genipay/python-project-lvl1/actions/workflows/hexlet-lint.yml/badge.svg)](https://github.com/genipay/python-project-lvl1/actions/workflows/hexlet-lint.yml)
 
+### brain-even
 https://asciinema.org/a/3zEG2vYWtSf4Dj1TjDXdbZNul
+[![asciicast](https://asciinema.org/a/496796.svg)](https://asciinema.org/a/496796)
