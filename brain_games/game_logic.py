@@ -2,7 +2,6 @@
 
 
 import prompt
-from brain_games.games import game_even
 NUMBER_CYCLES = 3
 
 
@@ -13,15 +12,10 @@ def welcome_user():
     return welcome, name
 
 
-def printing_rules(rules):
-    if rules == game_even.GAME_RULES_EVEN:
-        return game_even.GAME_RULES_EVEN
-
-
 def start_game(game):
     (welcome, name_user) = welcome_user()
     print(welcome)
-    print(printing_rules(game.GAME_RULES_EVEN))
+    print(game.GAME_RULE)
     for _ in range(0, NUMBER_CYCLES):
         (number_question, answer) = game.question_answer()
         print(f"Question: {number_question}")

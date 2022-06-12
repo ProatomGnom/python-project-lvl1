@@ -8,3 +8,7 @@
 ### brain-even
 https://asciinema.org/a/3zEG2vYWtSf4Dj1TjDXdbZNul
 [![asciicast](https://asciinema.org/a/496796.svg)](https://asciinema.org/a/496796)
+
+### brain-calc
+https://asciinema.org/a/JozyyxJNCv0bdkvnMiCmIKEDH
+[![asciicast](https://asciinema.org/a/JozyyxJNCv0bdkvnMiCmIKEDH.svg)](https://asciinema.org/a/JozyyxJNCv0bdkvnMiCmIKEDH)

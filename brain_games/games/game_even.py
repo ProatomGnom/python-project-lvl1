@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 from random import randint
-GAME_RULES_EVEN = 'Answer "yes" if the number is even, otherwise answer "no".'
+GAME_RULE = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def is_even(number):
