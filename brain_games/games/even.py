@@ -4,9 +4,9 @@ RULE = 'Answer "yes" if the number is even, ' \
 
 
 def create_question_and_answer():
-    random_number = randint(1, 100)
-    if random_number % 2 == 0:
+    question = randint(1, 100)
+    if question % 2 == 0:
         answer = 'yes'
     else:
         answer = 'no'
-    return random_number, answer
+    return question, answer
