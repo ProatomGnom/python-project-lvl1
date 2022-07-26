@@ -1,31 +1,22 @@
-#!/usr/bin/env python3
-
-
 import prompt
-NUMBER_CYCLES = 3
-
-
-def welcome_user():
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have yuor name? ')
-    welcome = (f"Hello, {name}!")
-    return welcome, name
+NUMBER_OF_ROUNDS = 3
 
 
 def start_game(game):
-    (welcome, name_user) = welcome_user()
-    print(welcome)
-    print(game.GAME_RULE)
-    for _ in range(0, NUMBER_CYCLES):
-        (number_question, answer) = game.question_answer()
-        print(f"Question: {number_question}")
+    print("Welcome to the Brain Games!")
+    name = prompt.string('May I have yuor name? ')
+    print(f'Hello, {name}!')
+    print(game.RULE)
+    for _ in range(0, NUMBER_OF_ROUNDS):
+        (expression, correct_answer) = game.create_question_and_answer()
+        print(f"Question: {expression}")
         answer_user = prompt.string("Your answer: ")
-        if answer_user == answer:
+        if answer_user == correct_answer:
             print("Correct!")
         else:
             print(f"'{answer_user}' is wrong answer ;(."
-                  f" Correct answer was '{answer}'.")
-            print(f"Let's try again, {name_user}!")
+                  f" Correct answer was '{correct_answer}'.")
+            print(f"Let's try again, {name}!")
             break
     else:
-        print(f"Congratulions, {name_user}!")
+        print(f"Congratulions, {name}!")
