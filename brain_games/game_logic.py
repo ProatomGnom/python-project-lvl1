@@ -19,4 +19,4 @@ def start_game(game):
             print(f"Let's try again, {name}!")
             break
     else:
-        print(f"Congratulions, {name}!")
+        print(f"Congratulations, {name}!")
