@@ -1,3 +1,18 @@
+Проект " Игры разума": В проекте представлены 5 логических игр:
+
+brain-even - Четное/нечетное
+brain-calc - Калькулятор, вычисляющий примеры из двух переменных( используются операторы +,-,*)
+brain-gcd - Наибольший общий делитель
+brain-progression - Арифметическая прогрессия (поиск пропущенного звена)
+brain-prime - Простое ли число
+
+Игры имеют общую логику, и запускаются из модуля common_logic, получающим на вход игру.
+
+Описание ИГРЫ:
+1. Приветствие
+2. вывод правил игры
+3. игра вопрос-ответ
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/genipay/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/genipay/python-project-lvl1/actions)
 
