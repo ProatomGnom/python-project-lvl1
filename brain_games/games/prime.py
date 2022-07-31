@@ -2,16 +2,13 @@ from random import randint
 RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def is_prime(number):
-    devider = 2
-    while number % devider != 0:
-        devider += 1
-    return devider == number
-
-
 def create_question_and_answer():
     question = randint(1, 1000)
-    if is_prime(question):
+    number = 2
+    for i in range(2, question):
+        if question % i != 0:
+            number += 1
+    if number == question:
         answer = 'yes'
     else:
         answer = 'no'

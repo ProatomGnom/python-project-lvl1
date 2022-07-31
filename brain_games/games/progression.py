@@ -3,14 +3,14 @@ RULE = "What number is missing in the progression?"
 
 
 def create_question_and_answer():
-    number = randint(0, 10)
+    start_number = randint(0, 10)
     step = randint(1, 10)
     progression = []
     for num in range(10):
-        next_number = number + step * num
+        next_number = start_number + step * num
         progression.append(str(next_number))
-    index = choice(range(len(progression) - 1))
-    answer = int(progression[index])
-    progression[index] = '..'
+    random_index = choice(range(len(progression) - 1))
+    answer = int(progression[random_index])
+    progression[random_index] = '..'
     question = " ".join(progression)
     return question, str(answer)

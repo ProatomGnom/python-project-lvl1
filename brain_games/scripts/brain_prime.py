@@ -1,10 +1,11 @@
 #!usr/bin/env python3
+
 from brain_games.games import prime
-from brain_games import game_logic
+from brain_games import consistency
 
 
 def main():
-    game_logic.start_game(prime)
+    consistency.start(prime)
 
 
 if __name__ == "__main__":
