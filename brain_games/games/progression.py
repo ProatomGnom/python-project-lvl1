@@ -10,7 +10,7 @@ def create_question_and_answer():
         next_number = start_number + step * num
         progression.append(str(next_number))
     random_index = choice(range(len(progression) - 1))
-    answer = int(progression[random_index])
+    answer = (progression[random_index])
     progression[random_index] = '..'
     question = " ".join(progression)
-    return question, str(answer)
+    return question, answer

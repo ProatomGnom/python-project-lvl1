@@ -7,7 +7,7 @@ def start(game):
     name = prompt.string('May I have yuor name? ')
     print(f'Hello, {name}!')
     print(game.RULE)
-    for _ in range(0, NUMBER_OF_ROUNDS):
+    for _ in range(NUMBER_OF_ROUNDS):
         (expression, correct_answer) = game.create_question_and_answer()
         print(f"Question: {expression}")
         answer_user = prompt.string("Your answer: ")

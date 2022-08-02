@@ -2,11 +2,11 @@
 
 
 from brain_games.games import even
-from brain_games import consistency
+from brain_games import engine
 
 
 def main():
-    consistency.start(even)
+    engine.start(even)
 
 
 if __name__ == "__main__":
