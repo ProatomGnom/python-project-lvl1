@@ -24,6 +24,9 @@ brain-gcd - Наибольший общий делитель
 ### Linter check
 [![linter check](https://github.com/genipay/python-project-lvl1/actions/workflows/hexlet-lint.yml/badge.svg)](https://github.com/genipay/python-project-lvl1/actions/workflows/hexlet-lint.yml)
 
+### CodeClimate
+[![Maintainability](https://api.codeclimate.com/v1/badges/81e913e48654e4018398/maintainability)](https://codeclimate.com/github/ProatomGnom/python-project-lvl1/maintainability)
+
 ### brain-even
 [![asciicast](https://asciinema.org/a/496796.svg)](https://asciinema.org/a/496796)
 
